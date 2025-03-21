@@ -1,0 +1,13 @@
+@import url("reset.css");
+
+h1 {
+    color: blue;
+}
+
+.list > p {
+    color: blueviolet;
+} 
+
+.list ~ p {
+    color: chartreuse;
+}
