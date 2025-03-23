@@ -1,8 +1,23 @@
+
 @import url("reset.css");
 
 h1 {
     color: blue;
 }
+h2,
+h3 {
+    color: aqua;
+}
+p {
+    color: brown;
+}
+#part-04 {
+    color: magenta;
+}
+[class*="te"] {
+	color: red; 
+}
+
 
 .list > p {
     color: blueviolet;
@@ -10,4 +25,13 @@ h1 {
 
 .list ~ p {
     color: chartreuse;
+}
+li {
+    color: yellowgreen;
+}
+.items {
+    color: violet;
+}
+a {
+    color: orangered;
 }
